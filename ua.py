@@ -176,17 +176,17 @@ class Useragent:
         self.scale = random.choice(["2.00", "3.00", "2.61", "2.00", "2.61", "2.00", "3.00", "2.00", "2.61", "3.00"])
         self.gamut = random.choice(["display", "P3", "display", "wide", "P3", "display", "wide"])
         return random.choice([
-    f'Barcelona {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; MICROMAX MOBILITY LIMITED/micromax; {str(random.choice(self.micromax))}; {str(random.choice(self.micromax))}; qcom; in_ID; {self.kode})',
-    f'Barcelona {self.versi_istagram} ({self.kontyol}; {self.ios}; en_AX; en-AX; scale={self.scale}; {self.pxl}; {self.kode})',
-    f'Barcelona {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; zh-cn; {oviv}; {opp}; {basa}; {self.kode})',
-    f'Barcelona {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; OPPO; {self.oppo}; {self.oppo2}; {self.mt_qcom}; {basa}; {self.kode})',
-    f'Barcelona {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; INFINIX MOBILITY LIMITED/Infinix; {inf}; {inf1}; {inf}-{inf1}; {trek}; {basa}; {self.kode})',
-    f'Barcelona {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; ASUS MOBILITY LIMITED/asus; {str(random.choice(self.asus))}; {str(random.choice(self.asus))}; qcom; in_ID; {self.kode})',
-    f'Barcelona {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; OPPO MOBILITY LIMITED/oppo; {str(random.choice(self.oppo2))}; {str(random.choice(self.oppo))}; qcom; in_ID; {self.kode})',
-    f'Barcelona {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; MICROMAX MOBILITY LIMITED/micromax; {str(random.choice(self.micromax))}; {str(random.choice(self.micromax))}; qcom; in_ID; {self.kode})',
-    f'Barcelona {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; ONEPLUS MOBILITY LIMITED/oneplus; {str(random.choice(self.oneplus))}; {str(random.choice(self.oneplus))}; qcom; in_ID; {self.kode})',
-    f'Barcelona {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; VIVO MOBILITY LIMITED/vivo; {str(random.choice(self.vivo2))}; {str(random.choice(self.vivo))}; qcom; in_ID; {self.kode})',
-    f'Barcelona {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; POCO MOBILITY LIMITED/poco; {str(random.choice(self.poco))}; {str(random.choice(self.poco))}; qcom; in_ID; {self.kode})'
+    f'Instagram {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; MICROMAX MOBILITY LIMITED/micromax; {str(random.choice(self.micromax))}; {str(random.choice(self.micromax))}; qcom; in_ID; {self.kode})',
+    f'Instagram {self.versi_istagram} ({self.kontyol}; {self.ios}; en_AX; en-AX; scale={self.scale}; {self.pxl}; {self.kode})',
+    f'Instagram {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; zh-cn; {oviv}; {opp}; {basa}; {self.kode})',
+    f'Instagram {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; OPPO; {self.oppo}; {self.oppo2}; {self.mt_qcom}; {basa}; {self.kode})',
+    f'Instagram {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; INFINIX MOBILITY LIMITED/Infinix; {inf}; {inf1}; {inf}-{inf1}; {trek}; {basa}; {self.kode})',
+    f'Instagram {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; ASUS MOBILITY LIMITED/asus; {str(random.choice(self.asus))}; {str(random.choice(self.asus))}; qcom; in_ID; {self.kode})',
+    f'Instagram {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; OPPO MOBILITY LIMITED/oppo; {str(random.choice(self.oppo2))}; {str(random.choice(self.oppo))}; qcom; in_ID; {self.kode})',
+    f'Instagram {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; MICROMAX MOBILITY LIMITED/micromax; {str(random.choice(self.micromax))}; {str(random.choice(self.micromax))}; qcom; in_ID; {self.kode})',
+    f'Instagram {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; ONEPLUS MOBILITY LIMITED/oneplus; {str(random.choice(self.oneplus))}; {str(random.choice(self.oneplus))}; qcom; in_ID; {self.kode})',
+    f'Instagram {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; VIVO MOBILITY LIMITED/vivo; {str(random.choice(self.vivo2))}; {str(random.choice(self.vivo))}; qcom; in_ID; {self.kode})',
+    f'Instagram {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; POCO MOBILITY LIMITED/poco; {str(random.choice(self.poco))}; {str(random.choice(self.poco))}; qcom; in_ID; {self.kode})'
 ])
     def useragent_api(self):
         return self.generate_useragent()
