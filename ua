@@ -164,3 +164,15 @@ class Useragent:
     f'Barcelona {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; VIVO MOBILITY LIMITED/vivo; {str(random.choice(self.vivo2))}; {str(random.choice(self.vivo))}; qcom; in_ID; {self.kode})',
     f'Barcelona {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; POCO MOBILITY LIMITED/poco; {str(random.choice(self.poco))}; {str(random.choice(self.poco))}; qcom; in_ID; {self.kode})'
 ])
+    def useragent_api(self):
+        return self.generate_useragent()
+    
+    def replace_instagram_with_barcelona(self, text):
+        return text.replace("Instagram", "Barcelona")
+    
+    def useragent_threads(self):
+        input_text = self.generate_useragent()
+        output_text = self.replace_instagram_with_barcelona(input_text)
+        return output_text
+
+print(Useragent().useragent_threads())
