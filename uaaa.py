@@ -163,7 +163,7 @@ class Useragent:
     f'Barcelona {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; ONEPLUS MOBILITY LIMITED/oneplus; {str(random.choice(self.oneplus))}; {str(random.choice(self.oneplus))}; qcom; in_ID; {self.kode})',
     f'Barcelona {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; VIVO MOBILITY LIMITED/vivo; {str(random.choice(self.vivo2))}; {str(random.choice(self.vivo))}; qcom; in_ID; {self.kode})',
     f'Barcelona {self.versi_istagram} Android ({self.device_android}; {self.dpi}; {self.pxl}; POCO MOBILITY LIMITED/poco; {str(random.choice(self.poco))}; {str(random.choice(self.poco))}; qcom; in_ID; {self.kode})'
-]
+])
             
     def useragent_api(self):
         return self.generate_useragent()
